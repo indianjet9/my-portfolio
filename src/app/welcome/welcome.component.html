@@ -1,0 +1,108 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="C:\Users\india\my-portfolio\src\app">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    body, html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+    }
+
+    /* Create a Parallax Effect */
+    .bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5 {
+      position: relative;
+    	opacity: 0.65;
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    }
+
+    /* First image (Myself. Full Height) */
+    .bgimg1 {
+        background-image: url(/src/app/myself.jpg);
+    	min-height: 500px;
+    }
+
+    /* Second image (Detail. Full Height) */
+    .bgimg2 {
+        background-image: url(/src/app/Detail.jpg);
+    	min-height: 500px;
+    }
+
+    /* Third image (Learn. Full Height) */
+    .bgimg3 {
+        background-image: url(/src/app/Learn.jpg);
+    	min-height: 500px;
+    }
+
+    /* Fourth image (Organized. Full Height) */
+    .bgimg4 {
+        background-image: url(/src/app/Organized.jpg);
+    	min-height: 500px;
+    }
+
+    /* Fifth image (Myself. Full Height) */
+    .bgimg5 {
+        background-image: url(/src/app/Team.jpg);
+    	min-height: 500px;
+    }
+</style>
+</head>
+<body>
+    <app-intro></app-intro>
+    <img src= "Detail.png" alt="Myself">
+
+	<div class="bgimg1"></div>
+
+	<app-values valHead="Detail Oriented"
+    valDes="I find beauty in the small details
+    of design, an offset of 1px can ruin the
+    overall user experience and I intend to make
+    sure that user gets the best experience.">
+    </app-values>
+
+	<div class="bgimg2"></div>
+
+	<app-values valHead="Quick Learner"
+    valDes="I believe the best way to learn new
+    technology is by applying is as much as possible.
+    I am always learning something new, I learned
+    and successfully used 6 different software in the
+    past year itself with full client satisfaction.">
+    </app-values>
+
+	<div class="bgimg3"></div>
+
+	<app-values valHead="Organized"
+    valDes="I believe digital clutter is as damaging
+    and distracting for designing and process flow as
+    physical clutter if not more, and so try to keep
+    my work well documented with proper comments and
+    standard naming conventions as far as possible.">
+    </app-values>
+
+	<div class="bgimg4"></div>
+
+	<app-values valHead="Team Player"
+    valDes="In the world of web development building
+    a decent website is not possible anymore with just
+    a few software and tools, but instead it requires
+    a combination of skills like SQL programming, business
+    development, content writers, web developers. I am
+    a cheerful fellow who understands that my work can
+    only go as smooth as everyone else's involved in my
+    project and hence give my full support as and when
+    required.">
+    </app-values>
+
+	<div class="bgimg5"></div>
+</body>
+</html>
